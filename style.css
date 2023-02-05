@@ -1,0 +1,57 @@
+.navbar{
+    background-image: url("Ellipse 9.png");
+    background-position: 100%;
+    background-repeat: no-repeat;
+    justify-content: end;
+    
+}
+.title
+{
+    background-repeat: no-repeat;
+     background: #0A2640;
+}
+h1, p
+{
+    color: whitesmoke;
+}
+.box
+{
+    background: #0A2640;;
+}
+.btn
+{
+    border-radius: 50px;
+    width: 220%;
+    height: 90%;
+    border: 2px solid #0A2640;
+    font-weight: 600;
+    color: #0A2640;
+}
+ .nav-link, a
+{
+    color: #0A2640;
+    justify-content: space-evenly;
+    font-size: 15px;
+    font-weight: 600;
+}
+.nav-link:hover
+{
+    color: orangered;
+    border-bottom: 2px solid olivedrab;
+    
+} 
+@media screen and (max-width: 948px){
+    .btn
+    {
+        width: 30%;
+        height: 50%;
+    }
+     .nav-link:hover
+    {
+        border-bottom: none;
+    }
+    .nav-link, a
+    {
+        margin-left: none;
+    }  
+}
